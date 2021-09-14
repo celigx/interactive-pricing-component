@@ -11,15 +11,19 @@ import checkmark from './assets/icon-check.svg';
 import sliderArrow from './assets/icon-slider.svg';
 
 function App() {
-  const [pageViews, setPageViews] = useState(data[3].views)
+  const [pageViews, setPageViews] = useState(data[3].pageViews)
   const [slider, setSlider] = useState(3)
   const [toggle, setToggle] = useState(false)
   const [price, setPrice] = useState(data[3].price)
 
   const handleSlider = (e) => {
     setSlider(e)
-    setPageViews(data[e].views)
+    setPageViews(data[e].pageViews)
     setPrice(data[e].price)
+  }
+
+  const handleToggle = () => {
+    setToggle(!toggle)
   }
 
   const formatToCurrency = new Intl.NumberFormat('en-US', {
@@ -57,6 +61,7 @@ function App() {
             <Toggle
               className="toggle"
               icons={false}
+              onChange={handleToggle}
             />
             <span>Yearly Billing</span>
           </div>
