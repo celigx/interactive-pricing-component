@@ -3,4 +3,4 @@
 Use the slider and toggle to see prices for different page view numbers
 
 ### Desktop
-![Interactive Pricing Component Desktop](../media/src/assets/interactive-pricing-component.png?raw=true)
+![Interactive Pricing Component Desktop](../media/src/assets/interactive-pricing-component-desktop.png?raw=true)
