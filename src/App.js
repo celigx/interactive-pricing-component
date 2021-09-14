@@ -22,6 +22,11 @@ function App() {
     setPrice(data[e].price)
   }
 
+  const formatToCurrency = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD'
+  })
+
   return (
     <div className="app">
 
@@ -44,7 +49,7 @@ function App() {
             onChange={handleSlider}
           />
           <div className="priceContainer">
-            <h1 className="price">{price}</h1>
+            <h1 className="price">{formatToCurrency.format(price)}</h1>
             <p className="month">/ month</p>
           </div>
           <div className="toggleContainer">
