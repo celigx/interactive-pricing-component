@@ -31,6 +31,9 @@ function App() {
     currency: 'USD'
   })
 
+  // Calculate discounted price
+  const discount = price * 25 / 100
+
   return (
     <div className="app">
 
@@ -53,7 +56,7 @@ function App() {
             onChange={handleSlider}
           />
           <div className="priceContainer">
-            <h1 className="price">{formatToCurrency.format(price)}</h1>
+            <h1 className="price">{toggle ? formatToCurrency.format(price - discount) : formatToCurrency.format(price)}</h1>
             <p className="month">/ month</p>
           </div>
           <div className="toggleContainer">
