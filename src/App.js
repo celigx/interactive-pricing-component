@@ -60,13 +60,13 @@ function App() {
             <p className="month">/ month</p>
           </div>
           <div className="toggleContainer">
-            <span>Monthly Billing</span>
+            <span className="monthlyBilling">Monthly Billing</span>
             <Toggle
               className="toggle"
               icons={false}
               onChange={handleToggle}
             />
-            <span>Yearly Billing</span>
+            <span className="yearlyBilling">Yearly Billing <span className="discount">-25%</span></span>
           </div>
           <div className="borderLine"></div>
         </div>
