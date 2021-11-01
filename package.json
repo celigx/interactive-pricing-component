@@ -1,7 +1,7 @@
 {
   "name": "interactive-pricing-component",
   "homepage": "https://celigx.github.io/interactive-pricing-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
