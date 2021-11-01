@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/interactive-pricing-component/static/css/main.9c085d45.chunk.css",
+    "main.js": "/interactive-pricing-component/static/js/main.5bcea6ee.chunk.js",
+    "main.js.map": "/interactive-pricing-component/static/js/main.5bcea6ee.chunk.js.map",
+    "runtime-main.js": "/interactive-pricing-component/static/js/runtime-main.008d965a.js",
+    "runtime-main.js.map": "/interactive-pricing-component/static/js/runtime-main.008d965a.js.map",
+    "static/css/2.49fb3711.chunk.css": "/interactive-pricing-component/static/css/2.49fb3711.chunk.css",
+    "static/js/2.76ffe82f.chunk.js": "/interactive-pricing-component/static/js/2.76ffe82f.chunk.js",
+    "static/js/2.76ffe82f.chunk.js.map": "/interactive-pricing-component/static/js/2.76ffe82f.chunk.js.map",
+    "static/js/3.80bbe71c.chunk.js": "/interactive-pricing-component/static/js/3.80bbe71c.chunk.js",
+    "static/js/3.80bbe71c.chunk.js.map": "/interactive-pricing-component/static/js/3.80bbe71c.chunk.js.map",
+    "index.html": "/interactive-pricing-component/index.html",
+    "static/css/2.49fb3711.chunk.css.map": "/interactive-pricing-component/static/css/2.49fb3711.chunk.css.map",
+    "static/css/main.9c085d45.chunk.css.map": "/interactive-pricing-component/static/css/main.9c085d45.chunk.css.map",
+    "static/js/2.76ffe82f.chunk.js.LICENSE.txt": "/interactive-pricing-component/static/js/2.76ffe82f.chunk.js.LICENSE.txt",
+    "static/media/App.sass": "/interactive-pricing-component/static/media/pattern-circles.9f6ed14b.svg",
+    "static/media/icon-check.83c38a48.svg": "/interactive-pricing-component/static/media/icon-check.83c38a48.svg",
+    "static/media/icon-slider.cbca35e0.svg": "/interactive-pricing-component/static/media/icon-slider.cbca35e0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.008d965a.js",
+    "static/css/2.49fb3711.chunk.css",
+    "static/js/2.76ffe82f.chunk.js",
+    "static/css/main.9c085d45.chunk.css",
+    "static/js/main.5bcea6ee.chunk.js"
+  ]
+}
